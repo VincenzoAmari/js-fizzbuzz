@@ -18,3 +18,10 @@
 // se è divisibile solo per 3 solo fizz 
 // se è divisibile solo per 5 solo buzz
 // altrimenti stampiamo tutti gli altri numeri senza nessuna parola
+
+for(let i = 1; i <100; i++){
+    if( i % 3 == 0 && i % 5 == 0){
+        console.log("FizzBuzz")
+    }
+
+}
